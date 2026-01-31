@@ -28,7 +28,7 @@ jobs:
     strategy:
       matrix:
         keyboard: [keyball39, keyball44]
-        keymap: [test, via]
+        keymap: [via]
 
     uses: ./.github/workflows/build-firmware.yml
     with:
